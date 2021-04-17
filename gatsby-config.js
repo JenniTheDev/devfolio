@@ -1,77 +1,104 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://jennithe.dev/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Jenni The Dev',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Jenni | Software Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    //description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@jenni`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/jennithedev`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/jennithedev/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I like to make really awesome games with really awesome people.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: "Espere's Journey",
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A 2D adventure game created in Unity',
+        link: 'https://github.com/JenniTheDev/EsperesJourney',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Microverse',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'A mobile app made up of microgames',
+        link: 'https://github.com/JenniTheDev/Microverse',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Blackmail',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A sample website to blackmail people so we can pay our tuition',
+        link: 'https://github.com/JenniTheDev/Blackmail_HTML_Version',
+      },
+      {
+        name: 'Pong',
+        description:
+          'Pong was created as part of two part talk I gave on creating games using Unity',
+        link: 'https://github.com/JenniTheDev/Pong_IESD',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Inland Empire Software Development',
+        description: 'Software Developer, July 2019 - Present',
+        link: 'https://www.iesd.com/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'ProUnlimited at Thales Avionics',
+        description: 'Content Integration Assitant, March 2020 - Present',
+        link: 'https://prounlimited.com/',
       },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+      // {
+      //   name: 'Hooli',
+      //   description: 'Full-Stack Developer, May 2015 - December 2017',
+      //   link: 'https://github.com/RyanFitzgerald/devfolio',
+      // },
     ],
+
+    education: [
+      {
+        name: 'California State University, Fullerton ',
+        description:
+          'B.S in Computer Science, May 2021',
+      },
+      {
+        name: 'Riverside City College',
+        description: 'Associates in Math and Science - May 2017  \n Database Managment Certificate - May 2017  \n Associates in Humanities, Philosophy and Arts - May 2017',
+      },
+      
+    ],
+
+
+
+
     // Optional: List your skills, they must have `name` and `description`.
+
+
     skills: [
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'C#, C++, Python, Java',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Game Engines',
+        description: 'Unity, Godot',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'SQL, Technical Writing, Agile / Scrum',
       },
     ],
+
+
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -131,7 +158,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile
         display: `minimal-ui`,
-        icon: `src/images/icon.png`,
+        icon: `src/images/jenniFace.png`,
       },
     },
   ],
