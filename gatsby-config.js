@@ -14,6 +14,8 @@ module.exports = {
     github: `https://github.com/jennithedev`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/jennithedev/`,
+    // Contact me
+    email: 'jennithedev@gmail.com',
     // Content of the About Me section
     about: `I like to make really awesome games with really awesome people.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
@@ -39,7 +41,7 @@ module.exports = {
       {
         name: 'Pong',
         description:
-          'Pong was created as part of two part talk I gave on creating games using Unity',
+          'Pong was created as part of multi-part talk I gave on creating games using Unity',
         link: 'https://github.com/JenniTheDev/Pong_IESD',
       },
     ],
@@ -52,7 +54,7 @@ module.exports = {
       },
       {
         name: 'ProUnlimited at Thales Avionics',
-        description: 'Content Integration Assitant, March 2020 - Present',
+        description: 'Content Integration Technician, March 2020 - Present',
         link: 'https://prounlimited.com/',
       },
       // {
@@ -83,18 +85,18 @@ module.exports = {
 
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Languages',
         description:
-          'C#, C++, Python, Java',
+          'C#, C++, Python, Java, SQL',
       },
       {
         name: 'Game Engines',
         description: 'Unity, Godot',
       },
       {
-        name: 'Other',
+        name: 'Other cool stuff I know',
         description:
-          'SQL, Technical Writing, Agile / Scrum',
+          'Technical Writing, Agile / Scrum, Database Administration, Geology',
       },
     ],
 
@@ -146,7 +148,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `ADD YOUR TRACKING ID HERE`, // Optional Google Analytics
+        trackingId: `G-2Q7DXW8J79`, // Optional Google Analytics
       },
     },
     {
